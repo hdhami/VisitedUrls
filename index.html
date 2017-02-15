@@ -10,10 +10,10 @@
     	.desc{
     		
     	}
-    	a:visited{
+    	a.demo:visited{
     		color:yellow;
     	}
-    	a:visited+div{
+    	a.demo:visited+div.txt{
     		display: none
     	}
     </style>
@@ -22,12 +22,12 @@
 <body>   
  
     <article>
-    	<a href="newPage.html">
+    	<a class="demo" href="newPage.html">
     		<span class="desc">this is base page</span>
     		<p>jasdbjasdabjk</p>
     		<label>asdsfsdf</label>
     	</a>
-    	<div>this is to be hidden</div>
+    	<div class="txt">this is to be hidden</div>
     </article>
    
 </body>
